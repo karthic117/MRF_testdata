@@ -1,0 +1,30 @@
+{
+  "reporting_entity_name": "HealthCare Inc.",
+  "reporting_entity_type": "issuer",
+  "version": "2.0.0",
+  "last_updated_on": "2025-10-30",
+  "reporting_structure": [
+    {
+      "reporting_plans": [
+        {
+          "plan_name": "HealthCare Basic Plan",
+          "plan_sponsor_name": "MRF",
+          "issuer_name": "HealthCare Issuer",
+          "plan_id_type": "ein",
+          "plan_id": "1234567890",
+          "plan_market_type": "individual"
+        }
+      ],
+      "in_network_files": [
+        {
+          "description": "In-network negotiated rates for HealthCare Basic Plan",
+          "location": "https://raw.githubusercontent.com/karthic117/MRF_testdata/refs/heads/main/Innetwork_sample_upgraded.json"
+        }
+      ],
+      "allowed_amount_file": {
+        "description": "Allowed amounts for out-of-network services",
+        "location": "https://raw.githubusercontent.com/karthic117/MRF_testdata/refs/heads/main/allowed_amount_billingcode.json"
+      }
+    }
+  ]
+}
