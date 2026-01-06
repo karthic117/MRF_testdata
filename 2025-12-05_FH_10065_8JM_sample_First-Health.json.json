@@ -1,0 +1,102 @@
+{
+    "reporting_entity_name": "First Health",
+    "reporting_entity_type": "Rental Network",
+    "last_updated_on": "2025-12-05",
+    "version": "1.3.1",
+    "provider_references": [{
+            "provider_group_id": 44952,
+            "provider_groups": [{
+                    "npi": [1417461427],
+                    "tin": {
+                        "type": "ein",
+                        "value": "462763974"
+                    }
+                }
+            ]
+        }, {
+            "provider_group_id": 36722,
+            "provider_groups": [{
+                    "npi": [1457595233, 1811362130, 1598398018, 1841223526, 1194378554, 1770827776, 1255713111, 1437964970],
+                    "tin": {
+                        "type": "ein",
+                        "value": "593549147"
+                    }
+                }
+            ]
+        }, {
+            "provider_group_id": 69792,
+            "provider_groups": [{
+                    "npi": [1003569385],
+                    "tin": {
+                        "type": "ein",
+                        "value": "873508681"
+                    }
+                }
+            ]
+        }
+    ],
+    "in_network": [{
+            "negotiation_arrangement": "ffs",
+            "name": "CRTJ SHUNT LMBR SARACH-PRTL-PLEURAL PRQ X LAM",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2021",
+            "billing_code": "63741",
+            "description": "CRTJ SHUNT LMBR SARACH-PRTL-PLEURAL PRQ X LAM",
+            "negotiated_rates": [{
+                    "provider_references": [1, 11302, 11791, 13578, 14384, 15258, 15263, 15561, 17668, 17725, 19168, 19651, 22637, 2507, 26094, 26879, 27871, 28453, 28963, 29566, 3001, 30127, 32726, 33591, 34226, 34580, 35757, 35993, 38966, 39177, 3991, 42827, 44766, 44864, 47173, 50981, 51591, 520, 5264, 52873, 56982, 57473, 66927, 67836, 6796, 70973, 72037, 72117, 72461, 74341, 75212, 76966, 7741, 78572, 8015, 80300, 82919, 84703, 86890, 89198, 90556, 92000, 93211, 93935, 94152, 95140, 95671, 95814, 97212, 97320, 99863],
+                    "negotiated_prices": [{
+                            "negotiated_type": "negotiated",
+                            "negotiated_rate": 733.99,
+                            "expiration_date": "9999-12-31",
+                            "service_code": ["21"],
+                            "billing_class": "institutional"
+                        }
+                    ]
+                }, {
+                    "provider_references": [2, 30015, 37221, 51129, 63315, 71035, 96319],
+                    "negotiated_prices": [{
+                            "negotiated_type": "negotiated",
+                            "negotiated_rate": 899.20,
+                            "expiration_date": "9999-12-31",
+                            "service_code": ["21"],
+                            "billing_class": "institutional"
+                        }
+                    ]
+                }, {
+                    "provider_references": [7],
+                    "negotiated_prices": [{
+                            "negotiated_type": "negotiated",
+                            "negotiated_rate": 1203.88,
+                            "expiration_date": "9999-12-31",
+                            "service_code": ["21"],
+                            "billing_class": "institutional"
+                        }
+                    ]
+                }, {
+                    "provider_references": [10, 1555, 19190, 28984, 31662, 32022, 36261, 37696, 41428, 52778, 55365, 59685, 73139, 82765, 88664, 91919],
+                    "negotiated_prices": [{
+                            "negotiated_type": "negotiated",
+                            "negotiated_rate": 694.48,
+                            "expiration_date": "9999-12-31",
+                            "service_code": ["21"],
+                            "billing_class": "institutional"
+                        }
+                    ]
+                }
+            ],
+            "bundled_codes": [{
+                    "billing_code_type": "CPT",
+                    "billing_code_type_version": "2021",
+                    "billing_code": "23412",
+                    "description": "REPAIR OF TENDON(S)"
+                }, {
+                    "billing_code_type": "CPT",
+                    "billing_code_type_version": "2021",
+                    "billing_code": "23420",
+                    "description": "RECONSTRUCTION ROTATOR CUFF, OLD"
+                }
+            ]
+        }
+    ]
+
+}
