@@ -1,0 +1,325 @@
+{
+    "reporting_entity_name": "AMPS",
+    "reporting_entity_type": "third party",
+    "plan_name": "AMPSNEXT",
+    "issuer_name": "karthic",
+    "plan_sponsor_name": "MRF",
+    "plan_id_type": "ein",
+    "plan_id": "9980123456",
+    "plan_market_type": "individual",
+    "last_updated_on": "2025-10-30",
+    "version": "2.0.0",
+
+    "provider_references": [{
+            "provider_group_id": 1,
+            "provider_groups": [{
+                    "npi": [1366433195],
+                    "tin": {
+                        "type": "ein",
+                        "value": "34-1893439",
+                        "business_name": "Provider Group One"
+                    }
+                }
+            ],
+            "network_name": ["Network A"]
+        }
+    ],
+
+    "in_network": [{
+            "negotiation_arrangement": "ffs",
+            "name": "Inj perflutren lip micros,ml",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023",
+            "billing_code": "Q9957",
+            "description": "Inj perflutren lip micros,ml",
+            "negotiated_rates": [{
+                    "provider_references": [1],
+                    "negotiated_prices": [{
+                            "negotiated_type": "negotiated",
+                            "billing_class": "institutional",
+                            "negotiated_rate": 1075.5,
+                            "expiration_date": "2026-12-31",
+                            "setting": "inpatient"
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "negotiation_arrangement": "ffs",
+            "name": "Inj perflutren lip micros,ml",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2021",
+            "billing_code": "27446",
+            "description": "Inj perflutren lip micros,ml",
+            "negotiated_rates": [{
+                    "provider_references": [1],
+                    "negotiated_prices": [{
+                            "negotiated_type": "negotiated",
+                            "negotiated_rate": 892.30,
+                            "expiration_date": "2022-01-01",
+                            "setting": "inpatient",
+                            "billing_class": "professional",
+                            "service_code": ["CSTM-00"]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "negotiation_arrangement": "ffs",
+            "name": "Inj perflutren lip micros,ml",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2022",
+            "billing_code": "27488",
+            "description": "Inj perflutren lip micros,ml",
+            "negotiated_rates": [{
+                    "provider_references": [1],
+                    "negotiated_prices": [{
+                            "negotiated_type": "negotiated",
+                            "negotiated_rate": 1043.75,
+                            "expiration_date": "2022-01-01",
+                            "setting": "inpatient",
+                            "billing_class": "professional",
+                            "service_code": ["CSTM-00"]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "negotiation_arrangement": "ffs",
+            "name": "Inj perflutren lip micros,ml",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2019",
+            "billing_code": "27445",
+            "description": "Inj perflutren lip micros,ml",
+            "negotiated_rates": [{
+                    "provider_references": [1],
+                    "negotiated_prices": [{
+                            "negotiated_type": "negotiated",
+                            "negotiated_rate": 967.10,
+                            "expiration_date": "2022-01-01",
+                            "setting": "inpatient",
+                            "billing_class": "professional",
+                            "service_code": ["CSTM-00"]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "negotiation_arrangement": "ffs",
+            "name": "Inj perflutren lip micros,ml",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023",
+            "billing_code": "27570",
+            "description": "Inj perflutren lip micros,ml",
+            "negotiated_rates": [{
+                    "provider_references": [1],
+                    "negotiated_prices": [{
+                            "negotiated_type": "negotiated",
+                            "negotiated_rate": 1112.55,
+                            "expiration_date": "2022-01-01",
+                            "setting": "inpatient",
+                            "billing_class": "professional",
+                            "service_code": ["CSTM-00"]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "negotiation_arrangement": "ffs",
+            "name": "Knee Replacement",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2020",
+            "billing_code": "27447",
+            "description": "Arthroplasty Knee",
+            "negotiated_rates": [{
+                    "provider_references": [1],
+                    "negotiated_prices": [{
+                            "negotiated_type": "negotiated",
+                            "negotiated_rate": 1299.99,
+                            "expiration_date": "2022-01-01",
+                            "setting": "inpatient",
+                            "billing_class": "professional",
+                            "service_code": ["CSTM-00"]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "negotiation_arrangement": "ffs",
+            "name": "Knee Replacement",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2018",
+            "billing_code": "27880",
+            "description": "Lower extremity operation",
+            "negotiated_rates": [{
+                    "provider_references": [1],
+                    "negotiated_prices": [{
+                            "negotiated_type": "negotiated",
+                            "negotiated_rate": 845.25,
+                            "expiration_date": "2022-01-01",
+                            "setting": "inpatient",
+                            "billing_class": "professional",
+                            "service_code": ["CSTM-00"]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "negotiation_arrangement": "ffs",
+            "name": "Knee Replacement",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2024",
+            "billing_code": "27438",
+            "description": "Arthroplasty knee lateral",
+            "negotiated_rates": [{
+                    "provider_references": [1],
+                    "negotiated_prices": [{
+                            "negotiated_type": "negotiated",
+                            "negotiated_rate": 1334.51,
+                            "expiration_date": "2022-01-01",
+                            "setting": "inpatient",
+                            "billing_class": "professional",
+                            "service_code": ["CSTM-00"]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "negotiation_arrangement": "ffs",
+            "name": "Knee Replacement",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2020",
+            "billing_code": "27472",
+            "description": "Arthroplasty condyle",
+            "negotiated_rates": [{
+                    "provider_references": [1],
+                    "negotiated_prices": [{
+                            "negotiated_type": "negotiated",
+                            "negotiated_rate": 1155.40,
+                            "expiration_date": "2022-01-01",
+                            "setting": "inpatient",
+                            "billing_class": "professional",
+                            "service_code": ["CSTM-00"]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "negotiation_arrangement": "ffs",
+            "name": "Knee Replacement",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2021",
+            "billing_code": "27487",
+            "description": "Revision knee replacement",
+            "negotiated_rates": [{
+                    "provider_references": [1],
+                    "negotiated_prices": [{
+                            "negotiated_type": "negotiated",
+                            "negotiated_rate": 945.60,
+                            "expiration_date": "2022-01-01",
+                            "setting": "inpatient",
+                            "billing_class": "professional",
+                            "service_code": ["CSTM-00"]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "negotiation_arrangement": "ffs",
+            "name": "Knee Replacement",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023",
+            "billing_code": "27506",
+            "description": "Femur fracture repair",
+            "negotiated_rates": [{
+                    "provider_references": [1],
+                    "negotiated_prices": [{
+                            "negotiated_type": "negotiated",
+                            "negotiated_rate": 1875.00,
+                            "expiration_date": "2022-01-01",
+                            "setting": "inpatient",
+                            "billing_class": "professional",
+                            "service_code": ["CSTM-00"]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "negotiation_arrangement": "ffs",
+            "name": "Hip Replacement",
+            "billing_code_type": "MS-DRG",
+            "billing_code_type_version": "2021",
+            "billing_code": "468",
+            "description": "Hip replacement without complications",
+            "negotiated_rates": [{
+                    "provider_references": [1],
+                    "negotiated_prices": [{
+                            "negotiated_type": "negotiated",
+                            "billing_class": "institutional",
+                            "negotiated_rate": 13200.0,
+                            "expiration_date": "2026-12-31",
+                            "setting": "inpatient"
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "negotiation_arrangement": "ffs",
+            "name": "Hip Replacement",
+            "billing_code_type": "MS-DRG",
+            "billing_code_type_version": "2022",
+            "billing_code": "469",
+            "description": "Hip replacement with complications",
+            "negotiated_rates": [{
+                    "provider_references": [1],
+                    "negotiated_prices": [{
+                            "negotiated_type": "negotiated",
+                            "billing_class": "institutional",
+                            "negotiated_rate": 17550.0,
+                            "expiration_date": "2026-12-31",
+                            "setting": "inpatient"
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "negotiation_arrangement": "ffs",
+            "name": "Hip Replacement",
+            "billing_code_type": "MS-DRG",
+            "billing_code_type_version": "2020",
+            "billing_code": "470",
+            "description": "Hip major joint replacement",
+            "negotiated_rates": [{
+                    "provider_references": [1],
+                    "negotiated_prices": [{
+                            "negotiated_type": "negotiated",
+                            "billing_class": "institutional",
+                            "negotiated_rate": 14110.5,
+                            "expiration_date": "2026-12-31",
+                            "setting": "inpatient"
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "negotiation_arrangement": "ffs",
+            "name": "Hip Replacement",
+            "billing_code_type": "MS-DRG",
+            "billing_code_type_version": "2023",
+            "billing_code": "472",
+            "description": "Hip replacement revision",
+            "negotiated_rates": [{
+                    "provider_references": [1],
+                    "negotiated_prices": [{
+                            "negotiated_type": "negotiated",
+                            "billing_class": "institutional",
+                            "negotiated_rate": 18990.0,
+                            "expiration_date": "2026-12-31",
+                            "setting": "inpatient"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
