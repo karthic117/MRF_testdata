@@ -250,6 +250,7 @@
             "billing_code_type": "MS-DRG",
             "billing_code_type_version": "2021",
             "billing_code": "468",
+			"severity_of_illness": "Major Complications or Comorbidities",
             "description": "Hip replacement without complications",
             "negotiated_rates": [{
                     "provider_references": [1],
@@ -269,6 +270,7 @@
             "billing_code_type": "MS-DRG",
             "billing_code_type_version": "2022",
             "billing_code": "469",
+			"severity_of_illness": "Major Complications or Comorbidities",
             "description": "Hip replacement with complications",
             "negotiated_rates": [{
                     "provider_references": [1],
@@ -288,6 +290,7 @@
             "billing_code_type": "MS-DRG",
             "billing_code_type_version": "2020",
             "billing_code": "470",
+			"severity_of_illness": "Major Complications or Comorbidities",
             "description": "Hip major joint replacement",
             "negotiated_rates": [{
                     "provider_references": [1],
@@ -307,6 +310,7 @@
             "billing_code_type": "MS-DRG",
             "billing_code_type_version": "2023",
             "billing_code": "472",
+			"severity_of_illness": "Major Complications or Comorbidities",
             "description": "Hip replacement revision",
             "negotiated_rates": [{
                     "provider_references": [1],
