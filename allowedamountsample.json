@@ -1,0 +1,865 @@
+{
+    "reporting_entity_name": "AMPS",
+    "reporting_entity_type": "third party",
+    "last_updated_on": "2023-11-26",
+    "version": "2.0.0",
+    "out_of_network": [{
+            "name": "Inj perflutren lip micros,ml",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q9957",
+            "description": "Inj perflutren lip micros,ml",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "341893439"
+                    },
+                    "billing_class": "institutional",
+                    "setting": "outpatient",
+                    "payments": [{
+                            "allowed_amount": 1075.5,
+                            "providers": [{
+                                    "billed_charge": 1075.5,
+                                    "npi": [
+                                        1366433195
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Procedure 1",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q991",
+            "description": "Description for Procedure 1",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "630987131"
+                    },
+                    "billing_class": "professional",
+                    "setting": "inpatient",
+                    "service_code": [
+                        "11",
+                        "22"
+                    ],
+                    "payments": [{
+                            "allowed_amount": 680.53,
+                            "billing_code_modifier": [
+                                "MOD1"
+                            ],
+                            "providers": [{
+                                    "billed_charge": 1073.82,
+                                    "npi": [
+                                        8199561733
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Procedure 2",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q992",
+            "description": "Description for Procedure 2",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "850842834"
+                    },
+                    "billing_class": "professional",
+                    "setting": "inpatient",
+                    "service_code": [
+                        "11",
+                        "22"
+                    ],
+                    "payments": [{
+                            "allowed_amount": 951.17,
+                            "billing_code_modifier": [
+                                "MOD1"
+                            ],
+                            "providers": [{
+                                    "billed_charge": 682.85,
+                                    "npi": [
+                                        4281162697
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Procedure 3",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q993",
+            "description": "Description for Procedure 3",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "640075194"
+                    },
+                    "billing_class": "professional",
+                    "setting": "inpatient",
+                    "service_code": [
+                        "11",
+                        "22"
+                    ],
+                    "payments": [{
+                            "allowed_amount": 944.86,
+                            "billing_code_modifier": [
+                                "MOD1"
+                            ],
+                            "providers": [{
+                                    "billed_charge": 803.43,
+                                    "npi": [
+                                        2676125482
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Procedure 4",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q994",
+            "description": "Description for Procedure 4",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "580161571"
+                    },
+                    "billing_class": "professional",
+                    "setting": "inpatient",
+                    "service_code": [
+                        "11",
+                        "22"
+                    ],
+                    "payments": [{
+                            "allowed_amount": 483.44,
+                            "billing_code_modifier": [
+                                "MOD1"
+                            ],
+                            "providers": [{
+                                    "billed_charge": 851.5,
+                                    "npi": [
+                                        8580316173
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Procedure 5",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q995",
+            "description": "Description for Procedure 5",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "415677585"
+                    },
+                    "billing_class": "professional",
+                    "setting": "inpatient",
+                    "service_code": [
+                        "11",
+                        "22"
+                    ],
+                    "payments": [{
+                            "allowed_amount": 568.63,
+                            "billing_code_modifier": [
+                                "MOD1"
+                            ],
+                            "providers": [{
+                                    "billed_charge": 745.8,
+                                    "npi": [
+                                        4186195759
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Procedure 6",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q996",
+            "description": "Description for Procedure 6",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "415677586"
+                    },
+                    "billing_class": "professional",
+                    "setting": "inpatient",
+                    "service_code": [
+                        "11",
+                        "22"
+                    ],
+                    "payments": [{
+                            "allowed_amount": 674.63,
+                            "billing_code_modifier": [
+                                "MOD1"
+                            ],
+                            "providers": [{
+                                    "billed_charge": 872.8,
+                                    "npi": [
+                                        4186195760
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Procedure 7",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q995",
+            "description": "Description for Procedure 7",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "415677585"
+                    },
+                    "billing_class": "professional",
+                    "setting": "inpatient",
+                    "service_code": [
+                        "11",
+                        "22"
+                    ],
+                    "payments": [{
+                            "allowed_amount": 643.63,
+                            "billing_code_modifier": [
+                                "MOD1"
+                            ],
+                            "providers": [{
+                                    "billed_charge": 727.8,
+                                    "npi": [
+                                        4186195761
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Procedure 8",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q998",
+            "description": "Description for Procedure 8",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "415677588"
+                    },
+                    "billing_class": "professional",
+                    "setting": "inpatient",
+                    "service_code": [
+                        "11",
+                        "22"
+                    ],
+                    "payments": [{
+                            "allowed_amount": 788.63,
+                            "billing_code_modifier": [
+                                "MOD1"
+                            ],
+                            "providers": [{
+                                    "billed_charge": 899.8,
+                                    "npi": [
+                                        4186195761
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Procedure 9",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q995",
+            "description": "Description for Procedure 9",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "415677589"
+                    },
+                    "billing_class": "professional",
+                    "setting": "inpatient",
+                    "service_code": [
+                        "11",
+                        "22"
+                    ],
+                    "payments": [{
+                            "allowed_amount": 599.63,
+                            "billing_code_modifier": [
+                                "MOD1"
+                            ],
+                            "providers": [{
+                                    "billed_charge": 699.8,
+                                    "npi": [
+                                        4186195771
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Procedure 10",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q995",
+            "description": "Description for Procedure 10",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "274915638"
+                    },
+                    "billing_class": "professional",
+                    "setting": "inpatient",
+                    "service_code": [
+                        "11",
+                        "22"
+                    ],
+                    "payments": [{
+                            "allowed_amount": 589.63,
+                            "billing_code_modifier": [
+                                "MOD1"
+                            ],
+                            "providers": [{
+                                    "billed_charge": 882.8,
+                                    "npi": [
+                                        748219560
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Procedure 11",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q995",
+            "description": "Description for Procedure 11",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "590482713"
+                    },
+                    "billing_class": "professional",
+                    "setting": "inpatient",
+                    "service_code": [
+                        "11",
+                        "22"
+                    ],
+                    "payments": [{
+                            "allowed_amount": 643.63,
+                            "billing_code_modifier": [
+                                "MOD1"
+                            ],
+                            "providers": [{
+                                    "billed_charge": 727.8,
+                                    "npi": [
+                                        193675842
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Procedure 12",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q995",
+            "description": "Description for Procedure 12",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "813765420"
+                    },
+                    "billing_class": "professional",
+                    "setting": "inpatient",
+                    "service_code": [
+                        "11",
+                        "22"
+                    ],
+                    "payments": [{
+                            "allowed_amount": 644.63,
+                            "billing_code_modifier": [
+                                "MOD1"
+                            ],
+                            "providers": [{
+                                    "billed_charge": 722.8,
+                                    "npi": [
+                                        129874566
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Procedure 13",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q995",
+            "description": "Description for Procedure 13",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "813765422"
+                    },
+                    "billing_class": "professional",
+                    "setting": "inpatient",
+                    "service_code": [
+                        "11",
+                        "22"
+                    ],
+                    "payments": [{
+                            "allowed_amount": 644.63,
+                            "billing_code_modifier": [
+                                "MOD1"
+                            ],
+                            "providers": [{
+                                    "billed_charge": 722.8,
+                                    "npi": [
+                                        129874567
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Procedure 14",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q995",
+            "description": "Description for Procedure 14",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "986541203"
+                    },
+                    "billing_class": "professional",
+                    "setting": "inpatient",
+                    "service_code": [
+                        "11",
+                        "22"
+                    ],
+                    "payments": [{
+                            "allowed_amount": 522.63,
+                            "billing_code_modifier": [
+                                "MOD1"
+                            ],
+                            "providers": [{
+                                    "billed_charge": 677.8,
+                                    "npi": [
+                                        301856794
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Procedure 15",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q995",
+            "description": "Description for Procedure 15",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "647129580"
+                    },
+                    "billing_class": "professional",
+                    "setting": "inpatient",
+                    "service_code": [
+                        "11",
+                        "22"
+                    ],
+                    "payments": [{
+                            "allowed_amount": 688.63,
+                            "billing_code_modifier": [
+                                "MOD1"
+                            ],
+                            "providers": [{
+                                    "billed_charge": 823.8,
+                                    "npi": [
+                                        523984107
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Procedure 16",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q995",
+            "description": "Description for Procedure 15",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "710568942"
+                    },
+                    "billing_class": "professional",
+                    "setting": "inpatient",
+                    "service_code": [
+                        "11",
+                        "22"
+                    ],
+                    "payments": [{
+                            "allowed_amount": 591.63,
+                            "billing_code_modifier": [
+                                "MOD1"
+                            ],
+                            "providers": [{
+                                    "billed_charge": 785.8,
+                                    "npi": [
+                                        265390478
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Procedure 17",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q995",
+            "description": "Description for Procedure 17",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "938154620"
+                    },
+                    "billing_class": "professional",
+                    "setting": "inpatient",
+                    "service_code": [
+                        "11",
+                        "22"
+                    ],
+                    "payments": [{
+                            "allowed_amount": 672.63,
+                            "billing_code_modifier": [
+                                "MOD1"
+                            ],
+                            "providers": [{
+                                    "billed_charge": 973.8,
+                                    "npi": [
+                                        193675842
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Procedure 18",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q995",
+            "description": "Description for Procedure 18",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "820546713"
+                    },
+                    "billing_class": "professional",
+                    "setting": "inpatient",
+                    "service_code": [
+                        "11",
+                        "22"
+                    ],
+                    "payments": [{
+                            "allowed_amount": 674.63,
+                            "billing_code_modifier": [
+                                "MOD1"
+                            ],
+                            "providers": [{
+                                    "billed_charge": 874.8,
+                                    "npi": [
+                                        567982401
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Procedure 19",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q995",
+            "description": "Description for Procedure 19",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "234718956"
+                    },
+                    "billing_class": "professional",
+                    "setting": "inpatient",
+                    "service_code": [
+                        "11",
+                        "22"
+                    ],
+                    "payments": [{
+                            "allowed_amount": 673.63,
+                            "billing_code_modifier": [
+                                "MOD1"
+                            ],
+                            "providers": [{
+                                    "billed_charge": 873.8,
+                                    "npi": [
+                                        905361427
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Procedure 20",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q995",
+            "description": "Description for Procedure 20",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "681257904"
+                    },
+                    "billing_class": "professional",
+                    "setting": "inpatient",
+                    "service_code": [
+                        "11",
+                        "22"
+                    ],
+                    "payments": [{
+                            "allowed_amount": 669.63,
+                            "billing_code_modifier": [
+                                "MOD1"
+                            ],
+                            "providers": [{
+                                    "billed_charge": 769.8,
+                                    "npi": [
+                                        457903218
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Procedure 21",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q995",
+            "description": "Description for Procedure 21",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "729684510"
+                    },
+                    "billing_class": "professional",
+                    "setting": "inpatient",
+                    "service_code": [
+                        "11",
+                        "22"
+                    ],
+                    "payments": [{
+                            "allowed_amount": 637.63,
+                            "billing_code_modifier": [
+                                "MOD1"
+                            ],
+                            "providers": [{
+                                    "billed_charge": 837.8,
+                                    "npi": [
+                                        318452769
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Procedure 22",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q995",
+            "description": "Description for Procedure 22",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "846190375"
+                    },
+                    "billing_class": "professional",
+                    "setting": "inpatient",
+                    "service_code": [
+                        "11",
+                        "22"
+                    ],
+                    "payments": [{
+                            "allowed_amount": 438.63,
+                            "billing_code_modifier": [
+                                "MOD1"
+                            ],
+                            "providers": [{
+                                    "billed_charge": 638.8,
+                                    "npi": [
+                                        592874613
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Procedure 23",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q995",
+            "description": "Description for Procedure 23",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "470316852"
+                    },
+                    "billing_class": "professional",
+                    "setting": "inpatient",
+                    "service_code": [
+                        "11",
+                        "22"
+                    ],
+                    "payments": [{
+                            "allowed_amount": 647.63,
+                            "billing_code_modifier": [
+                                "MOD1"
+                            ],
+                            "providers": [{
+                                    "billed_charge": 747.8,
+                                    "npi": [
+                                        953720486
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Procedure 24",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q995",
+            "description": "Description for Procedure 24",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "604158937"
+                    },
+                    "billing_class": "professional",
+                    "setting": "inpatient",
+                    "service_code": [
+                        "11",
+                        "22"
+                    ],
+                    "payments": [{
+                            "allowed_amount": 679.63,
+                            "billing_code_modifier": [
+                                "MOD1"
+                            ],
+                            "providers": [{
+                                    "billed_charge": 983.8,
+                                    "npi": [
+                                        633984108
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, {
+            "name": "Procedure 25",
+            "billing_code_type": "CPT",
+            "billing_code_type_version": "2023-11-26",
+            "billing_code": "Q995",
+            "description": "Description for Procedure 25",
+            "allowed_amounts": [{
+                    "tin": {
+                        "type": "ein",
+                        "value": "879240365"
+                    },
+                    "billing_class": "professional",
+                    "setting": "inpatient",
+                    "service_code": [
+                        "11",
+                        "22"
+                    ],
+                    "payments": [{
+                            "allowed_amount": 744.63,
+                            "billing_code_modifier": [
+                                "MOD1"
+                            ],
+                            "providers": [{
+                                    "billed_charge": 945.8,
+                                    "npi": [
+                                        394712856
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plan_name": "AMPSNEXT",
+    "plan_id_type": "hios",
+    "plan_id": "9980123456",
+    "plan_market_type": "individual",
+    "issuer_name": "karthic",
+    "plan_sponsor_name": "MRF"
+}
