@@ -1,0 +1,74 @@
+{
+  "reporting_entity_name": "HealthCare Inc.",
+  "reporting_entity_type": "issuer",
+  "version": "2.0.0",
+  "last_updated_on": "2025-10-30",
+  "reporting_structure": [
+    {
+      "reporting_plans": [
+        {
+          "plan_name": "HealthCare Basic Plan12",
+          "plan_sponsor_name": "HealthCare Inc.",
+          "issuer_name": "HealthCare Issuer",
+          "plan_id_type": "ein",
+          "plan_id": "1234567890",
+          "plan_market_type": "individual"
+        }
+      ],
+      "in_network_files": [
+        {
+          "description": "In-network negotiated rates for HealthCare Basic Plan",
+          "location": "https://raw.githubusercontent.com/karthic117/MRF_testdata/refs/heads/main/Innetwork_sample_upgraded.json"
+        }
+      ],
+      "allowed_amount_file": {
+        "description": "Allowed amounts for out-of-network services",
+        "location": "https://raw.githubusercontent.com/karthic117/MRF_testdata/refs/heads/main/allowed_amount_billingcode.json"
+      }
+    },{
+      "reporting_plans": [
+        {
+          "plan_name": "HealthCare Basic Plan8",
+          "plan_sponsor_name": "HealthCare Inc.",
+          "issuer_name": "HealthCare Issuer",
+          "plan_id_type": "ein",
+          "plan_id": "1234567890",
+          "plan_market_type": "individual"
+        }
+      ],
+      "in_network_files": [
+        {
+          "description": "In-network negotiated rates for HealthCare Basic Plan",
+          "location": "https://raw.githubusercontent.com/karthic117/MRF_testdata/refs/heads/main/innetworksample123.json"
+        }
+      ],
+      "allowed_amount_file": {
+        "description": "Allowed amounts for out-of-network services",
+        "location": "https://raw.githubusercontent.com/karthic117/MRF_testdata/refs/heads/main/allowedamountsample.json"
+      }
+    },
+    {
+      "reporting_plans": [
+        
+        {
+          "plan_name": "HealthCare Basic Plan",
+          "plan_sponsor_name": "HealthCare Inc.",
+          "issuer_name": "HealthCare Issuer",
+          "plan_id_type": "hios",
+          "plan_id": "1234567890",
+          "plan_market_type": "individual"
+        }
+      ],
+      "in_network_files": [
+        {
+          "description": "In-network negotiated rates for HealthCare Basic Plan",
+          "location": "https://raw.githubusercontent.com/karthic117/MRF_testdata/refs/heads/main/2025-11-01_karthic_AMPSNEXT_in-network-rates.json"
+        }
+      ],
+      "allowed_amount_file": {
+        "description": "Allowed amounts for out-of-network services",
+        "location": "https://raw.githubusercontent.com/karthic117/MRF_testdata/refs/heads/main/AllowedAmount25Rec.json"
+      }
+    }
+  ]
+}
