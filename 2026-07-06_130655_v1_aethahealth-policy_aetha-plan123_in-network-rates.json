@@ -1,0 +1,83 @@
+{
+  "reporting_entity_name": "AETHNA",
+  "reporting_entity_type": "third-party administrator",
+  "plan_name": "AETHA PLAN123",
+  "plan_id_type": "ein",
+  "plan_id": "5041861120",
+  "plan_market_type": "individual",
+  "plan_sponsor_name": "mrf",
+  "issuer_name": "AETHAHEALTH POLICY",
+  "last_updated_on": "2025-10-30",
+  "version": "2.0.0",
+  "provider_references": [
+    {
+      "provider_group_id": 1,
+      "network_name": [
+        "Network A"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1366433195
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "34-1893439",
+            "business_name": "Provider Group One"
+          }
+        }
+      ]
+    }
+  ],
+  "in_network": [
+    {
+      "negotiation_arrangement": "ffs",
+      "name": "Inj perflutren lip micros,ml",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "Q9957",
+      "description": "Inj perflutren lip micros,ml",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            1
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "negotiated",
+              "negotiated_rate": 1075.5,
+              "expiration_date": "2026-12-31",
+              "billing_class": "institutional",
+              "setting": "outpatient"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "name": "karthic",
+      "billing_code_type": "MS-DRG",
+      "billing_code_type_version": "2023",
+      "billing_code": "Q9957",
+      "description": "SAMPLE TEST",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            1
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "negotiated",
+              "negotiated_rate": 2345,
+              "expiration_date": "2026-12-31",
+              "billing_class": "institutional",
+              "setting": "outpatient"
+            }
+          ]
+        }
+      ],
+      "severity_of_illness": "fEVER"
+    }
+  ]
+}
