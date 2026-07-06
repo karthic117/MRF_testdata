@@ -1,0 +1,242 @@
+{
+  "reporting_entity_name": "AETHNA",
+  "reporting_entity_type": "third-party administrator",
+  "plan_name": "AETHA PLAN123",
+  "plan_id_type": "ein",
+  "plan_id": "3136112905",
+  "plan_market_type": "individual",
+  "plan_sponsor_name": "mrf",
+  "issuer_name": "AETHAHEALTH POLICY",
+  "last_updated_on": "2025-10-30",
+  "version": "2.0.0",
+  "provider_references": [
+    {
+      "provider_group_id": 1,
+      "network_name": [
+        "Network Alpha"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1209581616
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "55-8552954",
+            "business_name": "Provider Group One"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 2,
+      "network_name": [
+        "Network Standard"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1363360827
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "90-9319857",
+            "business_name": "Specialty Health Group"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 3,
+      "network_name": [
+        "Network Plus"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1861184517
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "21-9108662",
+            "business_name": "Community Health Network"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 4,
+      "network_name": [
+        "Network Gold"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1395064372
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "32-1889346",
+            "business_name": "Academic Medical Center Group"
+          }
+        }
+      ]
+    },
+    {
+      "provider_group_id": 5,
+      "network_name": [
+        "Network A"
+      ],
+      "provider_groups": [
+        {
+          "npi": [
+            1560372190
+          ],
+          "tin": {
+            "type": "ein",
+            "value": "81-3651591",
+            "business_name": "Specialty Health Group"
+          }
+        }
+      ]
+    }
+  ]
+  ,"in_network":[
+    {
+      "negotiation_arrangement": "capitation",
+      "name": "Critical care first hour 1",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "99291",
+      "description": "Critical care evaluation and management first 30-74 minutes",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            4
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "percentage",
+              "negotiated_rate": 11507.04,
+              "expiration_date": "2027-10-16",
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "service_code": [
+                "21",
+                "22"
+              ],
+              "billing_code_modifier": [
+                "AT"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "bundle",
+      "name": "Office visit est patient 2",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "99213",
+      "description": "Office or outpatient visit established patient, moderate complexity",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            1
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "per diem",
+              "negotiated_rate": 7142.54,
+              "expiration_date": "2026-12-10",
+              "billing_class": "institutional",
+              "setting": "inpatient",
+              "billing_code_modifier": [
+                "KX"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "name": "Flu vaccine administration 3",
+      "billing_code_type": "HCPCS",
+      "billing_code_type_version": "2023",
+      "billing_code": "G0008",
+      "description": "Administration of influenza virus vaccine",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            3
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "per diem",
+              "negotiated_rate": 1360.69,
+              "expiration_date": "2027-11-06",
+              "billing_class": "both",
+              "setting": "outpatient",
+              "service_code": [
+                "11",
+                "21"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "capitation",
+      "name": "Lab general classification 4",
+      "billing_code_type": "RC",
+      "billing_code_type_version": "2023",
+      "billing_code": "0300",
+      "description": "Laboratory general classification clinical",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            4
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "derived",
+              "negotiated_rate": 10235.77,
+              "expiration_date": "2026-04-24",
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "service_code": [
+                "61"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "capitation",
+      "name": "Colonoscopy diagnostic 5",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "45378",
+      "description": "Colonoscopy flexible proximal to splenic flexure diagnostic",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            1
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "fee schedule",
+              "negotiated_rate": 20949.63,
+              "expiration_date": "2027-10-03",
+              "billing_class": "institutional",
+              "setting": "inpatient"
+            }
+          ]
+        }
+      ]
+    }
+  ]}
