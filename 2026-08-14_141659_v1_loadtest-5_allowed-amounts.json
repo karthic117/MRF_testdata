@@ -1,0 +1,186 @@
+{
+  "reporting_entity_name": "AMPS",
+  "reporting_entity_type": "third-party administrator",
+  "plan_name": "AMPSNEXT",
+  "plan_id_type": "ein",
+  "plan_id": "3156490351",
+  "plan_market_type": "individual",
+  "plan_sponsor_name": "MRF",
+  "issuer_name": "karthic",
+  "last_updated_on": "2026-08-14",
+  "version": "2.0.0"
+  ,"out_of_network":[
+    {
+      "name": "Ultrasound abdomen 1",
+      "billing_code_type": "CPT",
+      "billing_code": "76700",
+      "billing_code_type_version": "2023",
+      "description": "Ultrasonography abdomen complete real time",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "74-5290163",
+            "business_name": "Valley Medical Group"
+          },
+          "billing_class": "professional",
+          "setting": "outpatient",
+          "payments": [
+            {
+              "allowed_amount": 3596.66,
+              "providers": [
+                {
+                  "npi": [
+                    1821411845
+                  ],
+                  "billed_charge": 980.62
+                }
+              ]
+            }
+          ],
+          "service_code": [
+            "71"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Office visit est patient 2",
+      "billing_code_type": "CPT",
+      "billing_code": "99213",
+      "billing_code_type_version": "2023",
+      "description": "Office or outpatient visit established patient, moderate complexity",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "92-8645369",
+            "business_name": "Specialty Health Group"
+          },
+          "billing_class": "professional",
+          "setting": "outpatient",
+          "payments": [
+            {
+              "allowed_amount": 790,
+              "providers": [
+                {
+                  "npi": [
+                    1015899386
+                  ],
+                  "billed_charge": 6529.78
+                }
+              ]
+            }
+          ],
+          "service_code": [
+            "11",
+            "22"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Preventive medicine new 3",
+      "billing_code_type": "CPT",
+      "billing_code": "99385",
+      "billing_code_type_version": "2023",
+      "description": "Initial comprehensive preventive medicine evaluation new patient 18-39 years",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "53-5178502",
+            "business_name": "Academic Medical Center Group"
+          },
+          "billing_class": "professional",
+          "setting": "outpatient",
+          "payments": [
+            {
+              "allowed_amount": 4410.85,
+              "providers": [
+                {
+                  "npi": [
+                    1517352390
+                  ],
+                  "billed_charge": 5281.31
+                }
+              ]
+            }
+          ],
+          "service_code": [
+            "11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vaccine admin IM 4",
+      "billing_code_type": "CPT",
+      "billing_code": "90471",
+      "billing_code_type_version": "2023",
+      "description": "Immunization administration intramuscular",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "24-2817096",
+            "business_name": "Integrated Care Solutions"
+          },
+          "billing_class": "professional",
+          "setting": "outpatient",
+          "payments": [
+            {
+              "allowed_amount": 3241.13,
+              "providers": [
+                {
+                  "npi": [
+                    1317115973
+                  ],
+                  "billed_charge": 5266.99
+                }
+              ]
+            }
+          ],
+          "service_code": [
+            "11",
+            "21",
+            "22"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Subsequent hospital care 5",
+      "billing_code_type": "CPT",
+      "billing_code": "99232",
+      "billing_code_type_version": "2023",
+      "description": "Subsequent hospital care moderate complexity per day",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "type": "ein",
+            "value": "43-1493917",
+            "business_name": "Valley Medical Group"
+          },
+          "billing_class": "professional",
+          "setting": "outpatient",
+          "payments": [
+            {
+              "allowed_amount": 4721.82,
+              "providers": [
+                {
+                  "npi": [
+                    1986458903
+                  ],
+                  "billed_charge": 3348.34
+                }
+              ]
+            }
+          ],
+          "service_code": [
+            "21"
+          ]
+        }
+      ]
+    }
+  ]}
