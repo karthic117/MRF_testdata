@@ -1,0 +1,54 @@
+{
+  "schema_version": "3.0.0",
+  "reporting_entity": {
+    "name": "AMPS",
+    "type": "third_party_administrator"
+  },
+  "market_segment": "small_group",
+  "reporting_period": {
+    "start": "2026-07-01",
+    "end": "2026-12-31"
+  },
+  "lookback_period": {
+    "start": "2026-07-01",
+    "end": "2027-03-31"
+  },
+  "last_updated_on": "2027-04-01",
+  "attestation": {
+    "statements": [
+      "To the best of its knowledge and belief, this plan or issuer has included all applicable information in accordance with the requirements of 45 CFR 147.212, and the information encoded is true, accurate, and complete as of the date in the file."
+    ],
+    "attester": {
+      "name": "Alex Morgan",
+      "title": "Chief Executive Officer",
+      "organization": "AMPS"
+    }
+  },
+  "out_of_network": [
+    {
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "99213",
+      "description": "Office or outpatient visit for established patient",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "34-1893439",
+            "business_name": "Provider Group One"
+          },
+          "billing_class": "professional",
+          "payments": [
+            {
+              "allowed_amount": 150,
+              "billed_charge": 275,
+              "npi": [
+                "1366433195"
+              ]
+            }
+          ],
+          "service_code": "11"
+        }
+      ]
+    }
+  ]
+}
