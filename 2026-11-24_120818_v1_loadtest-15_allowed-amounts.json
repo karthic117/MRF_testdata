@@ -1,0 +1,516 @@
+{
+  "schema_version": "3.0.0",
+  "reporting_entity": {
+    "name": "AMPS",
+    "type": "third_party_administrator"
+  },
+  "market_segment": "large_group",
+  "reporting_period": {
+    "start": "2026-07-01",
+    "end": "2026-12-31"
+  },
+  "lookback_period": {
+    "start": "2026-07-01",
+    "end": "2027-03-31"
+  },
+  "last_updated_on": "2027-04-01",
+  "attestation": {
+    "statements": [
+      "To the best of its knowledge and belief, this plan or issuer has included all applicable information in accordance with the requirements of 45 CFR 147.212, and the information encoded is true, accurate, and complete as of the date in the file."
+    ],
+    "attester": {
+      "name": "Alex Morgan",
+      "title": "Chief Executive Officer",
+      "organization": "AMPS"
+    }
+  }
+  ,"out_of_network":[
+    {
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "93000",
+      "description": "Routine electrocardiogram with at least 12 leads with interpretation and report",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "74-2041718",
+            "business_name": "Valley Medical Group"
+          },
+          "billing_class": "professional",
+          "payments": [
+            {
+              "allowed_amount": 3416.74,
+              "billed_charge": 2872.4,
+              "npi": [
+                "1408109593"
+              ]
+            },
+            {
+              "allowed_amount": 4686.8,
+              "billed_charge": 3823.1,
+              "npi": [
+                "1595470132"
+              ]
+            }
+          ],
+          "service_code": "11"
+        }
+      ]
+    },
+    {
+      "billing_code_type": "R-DRG",
+      "billing_code_type_version": "2023",
+      "billing_code": "R003",
+      "description": "Refined DRG cardiac case high severity of illness",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "44-7537123",
+            "business_name": "Specialty Health Group"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 4612.49,
+              "billed_charge": 7218.62,
+              "npi": [
+                "1514911777"
+              ]
+            }
+          ],
+          "setting": "inpatient",
+          "billing_code_modifiers": [
+            "KX"
+          ]
+        }
+      ]
+    },
+    {
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "99232",
+      "description": "Subsequent hospital care moderate complexity per day",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "89-6521828",
+            "business_name": "Advanced Medical Group"
+          },
+          "billing_class": "professional",
+          "payments": [
+            {
+              "allowed_amount": 4568.56,
+              "billed_charge": 4499.28,
+              "npi": [
+                "1865446597"
+              ]
+            },
+            {
+              "allowed_amount": 819.48,
+              "billed_charge": 6134.12,
+              "npi": [
+                "1062830171"
+              ]
+            },
+            {
+              "allowed_amount": 228.68,
+              "billed_charge": 775.45,
+              "npi": [
+                "1160951584"
+              ]
+            }
+          ],
+          "service_code": "21"
+        }
+      ]
+    },
+    {
+      "billing_code_type": "HCPCS",
+      "billing_code_type_version": "2023",
+      "billing_code": "G0101",
+      "description": "Cervical or vaginal cancer screening pelvic and clinical breast exam",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "83-6835476",
+            "business_name": "Advanced Medical Group"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 425.58,
+              "billed_charge": 7011.92,
+              "npi": [
+                "1902425647"
+              ]
+            },
+            {
+              "allowed_amount": 4448.95,
+              "billed_charge": 2773.18,
+              "npi": [
+                "1004224568"
+              ]
+            }
+          ],
+          "setting": "outpatient"
+        }
+      ]
+    },
+    {
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "99385",
+      "description": "Initial comprehensive preventive medicine evaluation new patient 18-39 years",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "14-6973617",
+            "business_name": "Metropolitan Providers"
+          },
+          "billing_class": "professional",
+          "payments": [
+            {
+              "allowed_amount": 1752.25,
+              "billed_charge": 918.34,
+              "npi": [
+                "1373905114"
+              ]
+            },
+            {
+              "allowed_amount": 3894.43,
+              "billed_charge": 5704.56,
+              "npi": [
+                "1219811542"
+              ]
+            }
+          ],
+          "service_code": "11",
+          "setting": "inpatient"
+        }
+      ]
+    },
+    {
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "Q9957",
+      "description": "Injection perflutren lipid microspheres per ml",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "44-5290304",
+            "business_name": "Specialty Health Group"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 2299.69,
+              "billed_charge": 7671.43,
+              "npi": [
+                "1178277778"
+              ]
+            },
+            {
+              "allowed_amount": 4702.39,
+              "billed_charge": 3373.41,
+              "npi": [
+                "1871497090"
+              ]
+            },
+            {
+              "allowed_amount": 3943.38,
+              "billed_charge": 554.21,
+              "npi": [
+                "1866460655"
+              ]
+            }
+          ],
+          "setting": "outpatient",
+          "billing_code_modifiers": [
+            "76"
+          ]
+        }
+      ]
+    },
+    {
+      "billing_code_type": "APS-DRG",
+      "billing_code_type_version": "2023",
+      "billing_code": "APS100",
+      "description": "All-patient severity DRG pediatric medical case",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "80-6039560",
+            "business_name": "Valley Medical Group"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 3893.96,
+              "billed_charge": 7088.33,
+              "npi": [
+                "1653098232"
+              ]
+            },
+            {
+              "allowed_amount": 3719.29,
+              "billed_charge": 2675.14,
+              "npi": [
+                "1491955931"
+              ]
+            },
+            {
+              "allowed_amount": 1951.32,
+              "billed_charge": 3080.04,
+              "npi": [
+                "1975132825"
+              ]
+            }
+          ],
+          "setting": "inpatient"
+        }
+      ]
+    },
+    {
+      "billing_code_type": "MS-DRG",
+      "billing_code_type_version": "2023",
+      "billing_code": "683",
+      "description": "Renal failure with MCC",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "55-2904565",
+            "business_name": "Academic Medical Center Group"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 2354.03,
+              "billed_charge": 4991.14,
+              "npi": [
+                "1448727391"
+              ]
+            },
+            {
+              "allowed_amount": 3767.42,
+              "billed_charge": 6392.24,
+              "npi": [
+                "1162137290"
+              ]
+            }
+          ],
+          "setting": "inpatient"
+        }
+      ]
+    },
+    {
+      "billing_code_type": "APC",
+      "billing_code_type_version": "2023",
+      "billing_code": "5115",
+      "description": "Level 5 hematology oncology drug administration APC",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "13-1079565",
+            "business_name": "Advanced Medical Group"
+          },
+          "billing_class": "professional",
+          "payments": [
+            {
+              "allowed_amount": 1609.83,
+              "billed_charge": 3225.58,
+              "npi": [
+                "1696296286"
+              ]
+            }
+          ],
+          "service_code": "81"
+        }
+      ]
+    },
+    {
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "43239",
+      "description": "Esophagogastroduodenoscopy with biopsy single or multiple",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "24-9116571",
+            "business_name": "Regional Medical Associates"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 1594.96,
+              "billed_charge": 4043.28,
+              "npi": [
+                "1760142761"
+              ]
+            },
+            {
+              "allowed_amount": 3421.37,
+              "billed_charge": 395.16,
+              "npi": [
+                "1865768678"
+              ]
+            }
+          ],
+          "setting": "outpatient"
+        }
+      ]
+    },
+    {
+      "billing_code_type": "HCPCS",
+      "billing_code_type_version": "2023",
+      "billing_code": "A6531",
+      "description": "Gradient compression garment sleeve and glottete",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "41-6378382",
+            "business_name": "Academic Medical Center Group"
+          },
+          "billing_class": "professional",
+          "payments": [
+            {
+              "allowed_amount": 267.66,
+              "billed_charge": 4087.59,
+              "npi": [
+                "1794443116"
+              ]
+            },
+            {
+              "allowed_amount": 2488.87,
+              "billed_charge": 605.1,
+              "npi": [
+                "1258042566"
+              ]
+            }
+          ],
+          "service_code": "12"
+        }
+      ]
+    },
+    {
+      "billing_code_type": "RC",
+      "billing_code_type_version": "2023",
+      "billing_code": "0360",
+      "description": "Operating room general classification",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "33-2608554",
+            "business_name": "Specialty Health Group"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 1874.98,
+              "billed_charge": 6707.17,
+              "npi": [
+                "1246180056"
+              ]
+            }
+          ],
+          "setting": "outpatient"
+        }
+      ]
+    },
+    {
+      "billing_code_type": "APC",
+      "billing_code_type_version": "2023",
+      "billing_code": "5072",
+      "description": "Level 2 excision biopsy and incision and drainage APC",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "62-1551937",
+            "business_name": "Statewide Provider Network"
+          },
+          "billing_class": "professional",
+          "payments": [
+            {
+              "allowed_amount": 1542.4,
+              "billed_charge": 6333.16,
+              "npi": [
+                "1338229958"
+              ]
+            },
+            {
+              "allowed_amount": 370.76,
+              "billed_charge": 7602.83,
+              "npi": [
+                "1438202640"
+              ]
+            }
+          ],
+          "service_code": "32"
+        }
+      ]
+    },
+    {
+      "billing_code_type": "S-DRG",
+      "billing_code_type_version": "2023",
+      "billing_code": "S103",
+      "description": "Severity-adjusted DRG major severity of illness subclass",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "29-4485059",
+            "business_name": "Metropolitan Providers"
+          },
+          "billing_class": "institutional",
+          "payments": [
+            {
+              "allowed_amount": 4196.94,
+              "billed_charge": 3024.24,
+              "npi": [
+                "1741167395"
+              ]
+            },
+            {
+              "allowed_amount": 3920.82,
+              "billed_charge": 4829.84,
+              "npi": [
+                "1724227016"
+              ]
+            }
+          ],
+          "setting": "inpatient"
+        }
+      ]
+    },
+    {
+      "billing_code_type": "HCPCS",
+      "billing_code_type_version": "2023",
+      "billing_code": "G0101",
+      "description": "Cervical or vaginal cancer screening pelvic and clinical breast exam",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "21-9941604",
+            "business_name": "Metropolitan Providers"
+          },
+          "billing_class": "professional",
+          "payments": [
+            {
+              "allowed_amount": 2079.86,
+              "billed_charge": 819.9,
+              "npi": [
+                "1458586595"
+              ]
+            },
+            {
+              "allowed_amount": 2583.06,
+              "billed_charge": 5817.11,
+              "npi": [
+                "1120666173"
+              ]
+            }
+          ],
+          "service_code": "11",
+          "setting": "outpatient"
+        }
+      ]
+    }
+  ]}

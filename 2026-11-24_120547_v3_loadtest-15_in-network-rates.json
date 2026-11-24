@@ -1,0 +1,603 @@
+{
+  "schema_version": "3.0.0",
+  "reporting_entity": {
+    "name": "AMPS",
+    "type": "third_party_administrator"
+  },
+  "network": {
+    "network_id": "NET-001",
+    "network_name": [
+      "Network A"
+    ]
+  },
+  "reporting_period": {
+    "start": "2027-04-01",
+    "end": "2027-06-30"
+  },
+  "last_updated_on": "2027-04-01",
+  "attestation": {
+    "statements": [
+      "To the best of its knowledge and belief, this plan or issuer has included all applicable information in accordance with the requirements of 45 CFR 147.212, and the information encoded is true, accurate, and complete as of the date in the file."
+    ],
+    "attester": {
+      "name": "Alex Morgan",
+      "title": "Chief Executive Officer",
+      "organization": "AMPS"
+    }
+  },
+  "provider_references": [
+    {
+      "provider_group_id": 1,
+      "provider_groups": [
+        {
+          "tin": {
+            "ein": "53-8670898",
+            "business_name": "Valley Medical Group"
+          },
+          "npi": [
+            "1323741816"
+          ]
+        }
+      ]
+    },
+    {
+      "provider_group_id": 2,
+      "provider_groups": [
+        {
+          "tin": {
+            "ein": "11-2061578",
+            "business_name": "Metropolitan Providers"
+          },
+          "npi": [
+            "1773530020"
+          ]
+        }
+      ]
+    }
+  ],
+  "service_code_sets": [
+    {
+      "service_code_set_id": 1,
+      "service_code": [
+        "11",
+        "12"
+      ]
+    },
+    {
+      "service_code_set_id": 2,
+      "service_code": [
+        "21",
+        "22",
+        "23"
+      ]
+    },
+    {
+      "service_code_set_id": 3,
+      "service_code": [
+        "31",
+        "32",
+        "33"
+      ]
+    }
+  ],
+  "payment_provisions": [
+    {
+      "provision_id": 1,
+      "provision_type": "outlier",
+      "applies_to": "all_rates",
+      "trigger": {
+        "measure": "billed_charges",
+        "threshold": 150000
+      },
+      "method": {
+        "negotiated_type": "percentage",
+        "rate": 80,
+        "basis": "billed_charges",
+        "application": "amount_above_threshold",
+        "relation_to_rate": "in_addition_to_rate"
+      },
+      "contract_text": "Outlier: 80 percent of billed charges above $150,000 is paid in addition to the case rate."
+    },
+    {
+      "provision_id": 2,
+      "provision_type": "stop_loss",
+      "applies_to": "referenced_rates",
+      "trigger": {
+        "measure": "estimated_cost",
+        "threshold": 500000
+      },
+      "method": {
+        "negotiated_type": "percentage",
+        "rate": 100,
+        "basis": "estimated_cost",
+        "application": "full_amount",
+        "relation_to_rate": "in_place_of_rate"
+      },
+      "cost_to_charge_ratios": [
+        {
+          "tin": {
+            "ein": "53-8670898",
+            "business_name": "Valley Medical Group"
+          },
+          "ratio": 0.42
+        }
+      ],
+      "contract_text": "Stop-loss: estimated cost above $500,000 is paid in full in place of the case rate."
+    },
+    {
+      "provision_id": 3,
+      "provision_type": "other",
+      "applies_to": "referenced_rates",
+      "trigger": {
+        "measure": "length_of_stay_days",
+        "threshold": 10
+      },
+      "method": {
+        "negotiated_type": "per diem",
+        "rate": 1200.5,
+        "relation_to_rate": "greater_of_rate"
+      }
+    }
+  ],
+  "capitation_arrangements": [
+    {
+      "capitation_id": 1,
+      "description": "Primary care capitation",
+      "provider_references": [
+        1
+      ],
+      "rate": 45.5,
+      "covered_services": [
+        {
+          "billing_code_type": "CPT",
+          "billing_code_type_version": "2023",
+          "range_start": "99201",
+          "range_end": "99215"
+        },
+        {
+          "billing_code_type": "CPT",
+          "billing_code_type_version": "2023",
+          "billing_code": "99381"
+        }
+      ],
+      "expiration_date": "9999-12-31"
+    }
+  ]
+  ,"in_network":[
+    {
+      "negotiation_arrangement": "bundle",
+      "billing_code_type": "S-DRG",
+      "billing_code_type_version": "2023",
+      "billing_code": "S102",
+      "description": "Severity-adjusted DRG moderate severity of illness subclass",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            1
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "negotiated",
+              "negotiated_rate": 15562.05,
+              "billing_class": "institutional",
+              "setting": "inpatient",
+              "expiration_date": "2027-12-21"
+            }
+          ]
+        }
+      ],
+      "severity_of_illness": "Moderate Complications",
+      "bundled_codes": [
+        {
+          "billing_code_type": "CPT",
+          "billing_code_type_version": "2023",
+          "billing_code": "76700",
+          "description": "Ultrasonography abdomen complete real time"
+        },
+        {
+          "billing_code_type": "HCPCS",
+          "billing_code_type_version": "2023",
+          "billing_code": "A6531",
+          "description": "Gradient compression garment sleeve and glottete"
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "APC",
+      "billing_code_type_version": "2023",
+      "billing_code": "5072",
+      "description": "Level 2 excision biopsy and incision and drainage APC",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            2
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "negotiated",
+              "negotiated_rate": 14403,
+              "billing_class": "institutional",
+              "setting": "inpatient",
+              "expiration_date": "2028-09-09"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "S-DRG",
+      "billing_code_type_version": "2023",
+      "billing_code": "S104",
+      "description": "Severity-adjusted DRG extreme severity of illness subclass",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            1
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "per diem",
+              "negotiated_rate": 5101.82,
+              "billing_class": "institutional",
+              "setting": "inpatient",
+              "expiration_date": "2027-04-26",
+              "billing_code_modifiers": [
+                "TC"
+              ]
+            }
+          ]
+        }
+      ],
+      "severity_of_illness": "With MCC"
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "90471",
+      "description": "Immunization administration intramuscular",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            2
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "per diem",
+              "negotiated_rate": 2103.43,
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "expiration_date": "2029-05-13",
+              "service_code": [
+                "11",
+                "21",
+                "22"
+              ],
+              "billing_code_modifiers": [
+                "KX"
+              ],
+              "payment_provision_ids": [
+                2
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "MS-DRG",
+      "billing_code_type_version": "2023",
+      "billing_code": "638",
+      "description": "Diabetes with MCC",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            2
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "negotiated",
+              "negotiated_rate": 12092.85,
+              "billing_class": "institutional",
+              "setting": "inpatient",
+              "expiration_date": "2028-04-14",
+              "billing_code_modifiers": [
+                "91"
+              ]
+            }
+          ]
+        }
+      ],
+      "severity_of_illness": "Major Complications or Comorbidities"
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "RC",
+      "billing_code_type_version": "2023",
+      "billing_code": "0250",
+      "description": "Pharmacy general classification",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            2
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "derived",
+              "negotiated_rate": 6638.56,
+              "billing_class": "both",
+              "setting": "outpatient",
+              "expiration_date": "2028-03-21",
+              "service_code": [
+                "81"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "CDT",
+      "billing_code_type_version": "2023",
+      "billing_code": "D0210",
+      "description": "Radiographic intraoral complete series of radiographic images CDT",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            2
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "derived",
+              "negotiated_rate": 3912.65,
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "expiration_date": "2029-08-11",
+              "service_code": [
+                "11"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "CDT",
+      "billing_code_type_version": "2023",
+      "billing_code": "D0120",
+      "description": "Periodic oral evaluation established patient CDT",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            2
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "per diem",
+              "negotiated_rate": 5116.47,
+              "billing_class": "institutional",
+              "setting": "inpatient",
+              "expiration_date": "2028-01-22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "bundle",
+      "billing_code_type": "MS-DRG",
+      "billing_code_type_version": "2023",
+      "billing_code": "459",
+      "description": "Spinal fusion except cervical without MCC",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            2
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "fee schedule",
+              "negotiated_rate": 20568.96,
+              "billing_class": "institutional",
+              "setting": "inpatient",
+              "expiration_date": "2027-01-07",
+              "payment_provision_ids": [
+                3
+              ]
+            }
+          ]
+        }
+      ],
+      "severity_of_illness": "Without CC or MCC",
+      "bundled_codes": [
+        {
+          "billing_code_type": "CPT",
+          "billing_code_type_version": "2023",
+          "billing_code": "99291",
+          "description": "Critical care evaluation and management first 30-74 minutes"
+        },
+        {
+          "billing_code_type": "CPT",
+          "billing_code_type_version": "2023",
+          "billing_code": "27447",
+          "description": "Arthroplasty knee condyle and plateau medial and lateral compartments"
+        },
+        {
+          "billing_code_type": "HCPCS",
+          "billing_code_type_version": "2023",
+          "billing_code": "E1234",
+          "description": "Wheelchair component or accessory not otherwise specified"
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "HCPCS",
+      "billing_code_type_version": "2023",
+      "billing_code": "J1040",
+      "description": "Injection methylprednisolone acetate 80 mg",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            2
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "percentage",
+              "negotiated_rate": 8324.06,
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "expiration_date": "2027-09-05",
+              "service_code": [
+                "13"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "APC",
+      "billing_code_type_version": "2023",
+      "billing_code": "5302",
+      "description": "Level 2 diagnostic and screening radiology APC",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            1
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "derived",
+              "negotiated_rate": 8663.02,
+              "billing_class": "institutional",
+              "setting": "inpatient",
+              "expiration_date": "2027-02-27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "MS-DRG",
+      "billing_code_type_version": "2023",
+      "billing_code": "177",
+      "description": "Respiratory infections and inflammations with MCC",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            1
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "percentage",
+              "negotiated_rate": 22988.7,
+              "billing_class": "institutional",
+              "setting": "inpatient",
+              "expiration_date": "2027-05-24"
+            }
+          ]
+        }
+      ],
+      "severity_of_illness": "Major Complications or Comorbidities"
+    },
+    {
+      "negotiation_arrangement": "bundle",
+      "billing_code_type": "MS-DRG",
+      "billing_code_type_version": "2023",
+      "billing_code": "469",
+      "description": "Major joint replacement or reattachment of lower extremity with major complications",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            1
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "derived",
+              "negotiated_rate": 4904.4,
+              "billing_class": "institutional",
+              "setting": "inpatient",
+              "expiration_date": "2029-11-24"
+            }
+          ]
+        }
+      ],
+      "severity_of_illness": "Major Complications or Comorbidities",
+      "bundled_codes": [
+        {
+          "billing_code_type": "CPT",
+          "billing_code_type_version": "2023",
+          "billing_code": "76700",
+          "description": "Ultrasonography abdomen complete real time"
+        },
+        {
+          "billing_code_type": "HCPCS",
+          "billing_code_type_version": "2023",
+          "billing_code": "G0008",
+          "description": "Administration of influenza virus vaccine"
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "HCPCS",
+      "billing_code_type_version": "2023",
+      "billing_code": "S0028",
+      "description": "Injection oprelvekin per 5 mg",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            1
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "negotiated",
+              "negotiated_rate": 14504.28,
+              "billing_class": "institutional",
+              "setting": "inpatient",
+              "expiration_date": "2027-07-17",
+              "billing_code_modifiers": [
+                "59",
+                "76"
+              ],
+              "payment_provision_ids": [
+                2
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "99232",
+      "description": "Subsequent hospital care moderate complexity per day",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            1
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "negotiated",
+              "negotiated_rate": 19476.43,
+              "billing_class": "both",
+              "setting": "outpatient",
+              "expiration_date": "2028-08-26",
+              "service_code_set_id": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]}
