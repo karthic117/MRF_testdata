@@ -1,0 +1,371 @@
+{
+  "schema_version": "3.0.0",
+  "reporting_entity": {
+    "name": "AMPS",
+    "type": "third_party_administrator"
+  },
+  "network": {
+    "network_id": "NET-003",
+    "network_name": [
+      "Network A"
+    ]
+  },
+  "reporting_period": {
+    "start": "2027-04-01",
+    "end": "2027-06-30"
+  },
+  "last_updated_on": "2027-04-01",
+  "attestation": {
+    "statements": [
+      "To the best of its knowledge and belief, this plan or issuer has included all applicable information in accordance with the requirements of 45 CFR 147.212, and the information encoded is true, accurate, and complete as of the date in the file."
+    ],
+    "attester": {
+      "name": "Alex Morgan",
+      "title": "Chief Executive Officer",
+      "organization": "AMPS"
+    }
+  },
+  "provider_references": [
+    {
+      "provider_group_id": 1,
+      "provider_groups": [
+        {
+          "tin": {
+            "ein": "49-9891839",
+            "business_name": "Specialty Health Group"
+          },
+          "npi": [
+            "1391898317"
+          ]
+        }
+      ]
+    },
+    {
+      "provider_group_id": 2,
+      "provider_groups": [
+        {
+          "tin": {
+            "ein": "68-7745610",
+            "business_name": "Metropolitan Providers"
+          },
+          "npi": [
+            "1370036235"
+          ]
+        }
+      ]
+    },
+    {
+      "provider_group_id": 3,
+      "provider_groups": [
+        {
+          "tin": {
+            "ein": "24-3398367",
+            "business_name": "Metropolitan Providers"
+          },
+          "npi": [
+            "1521396793"
+          ]
+        }
+      ]
+    },
+    {
+      "provider_group_id": 4,
+      "provider_groups": [
+        {
+          "tin": {
+            "ein": "30-6787701",
+            "business_name": "Valley Medical Group"
+          },
+          "npi": [
+            "1789578068"
+          ]
+        }
+      ]
+    },
+    {
+      "provider_group_id": 5,
+      "provider_groups": [
+        {
+          "tin": {
+            "ein": "22-1617144",
+            "business_name": "Academic Medical Center Group"
+          },
+          "npi": [
+            "1867631748"
+          ]
+        }
+      ]
+    }
+  ]
+  ,"in_network":[
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "99213",
+      "description": "Office or outpatient visit established patient, moderate complexity",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            4
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "negotiated",
+              "negotiated_rate": 16333.77,
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "expiration_date": "2027-09-17",
+              "service_code": [
+                "11",
+                "22"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "43239",
+      "description": "Esophagogastroduodenoscopy with biopsy single or multiple",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            2
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "negotiated",
+              "negotiated_rate": 16996.12,
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "expiration_date": "2027-03-19",
+              "service_code": [
+                "21"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "99291",
+      "description": "Critical care evaluation and management first 30-74 minutes",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            5
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "negotiated",
+              "negotiated_rate": 22289.63,
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "expiration_date": "2029-10-16",
+              "service_code": [
+                "21",
+                "22"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "43239",
+      "description": "Esophagogastroduodenoscopy with biopsy single or multiple",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            1
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "fee schedule",
+              "negotiated_rate": 17082.06,
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "expiration_date": "2029-03-09",
+              "service_code": [
+                "13"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "76700",
+      "description": "Ultrasonography abdomen complete real time",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            1
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "per diem",
+              "negotiated_rate": 19291.63,
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "expiration_date": "2027-12-20",
+              "service_code": [
+                "13"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "99213",
+      "description": "Office or outpatient visit established patient, moderate complexity",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            4
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "derived",
+              "negotiated_rate": 15085.59,
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "expiration_date": "2028-01-24",
+              "service_code": [
+                "11",
+                "22"
+              ],
+              "billing_code_modifiers": [
+                "76",
+                "TC"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "99385",
+      "description": "Initial comprehensive preventive medicine evaluation new patient 18-39 years",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            2
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "per diem",
+              "negotiated_rate": 608.69,
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "expiration_date": "2028-01-08",
+              "service_code": [
+                "11"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "71046",
+      "description": "Radiologic examination chest 2 views",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            1
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "per diem",
+              "negotiated_rate": 13538.33,
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "expiration_date": "2029-12-15",
+              "service_code": [
+                "11",
+                "22"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "99203",
+      "description": "Office or outpatient visit new patient, moderate complexity",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            4
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "percentage",
+              "negotiated_rate": 20494.08,
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "expiration_date": "2028-08-21",
+              "service_code": [
+                "11",
+                "21"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "99213",
+      "description": "Office or outpatient visit established patient, moderate complexity",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            4
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "fee schedule",
+              "negotiated_rate": 18122.36,
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "expiration_date": "2028-01-17",
+              "service_code": [
+                "11",
+                "22"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]}

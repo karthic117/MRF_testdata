@@ -1,0 +1,288 @@
+{
+  "schema_version": "3.0.0",
+  "reporting_entity": {
+    "name": "AMPS",
+    "type": "third_party_administrator"
+  },
+  "market_segment": "large_group",
+  "reporting_period": {
+    "start": "2026-07-01",
+    "end": "2026-12-31"
+  },
+  "lookback_period": {
+    "start": "2026-07-01",
+    "end": "2027-03-31"
+  },
+  "last_updated_on": "2027-04-01",
+  "attestation": {
+    "statements": [
+      "To the best of its knowledge and belief, this plan or issuer has included all applicable information in accordance with the requirements of 45 CFR 147.212, and the information encoded is true, accurate, and complete as of the date in the file."
+    ],
+    "attester": {
+      "name": "Alex Morgan",
+      "title": "Chief Executive Officer",
+      "organization": "AMPS"
+    }
+  }
+  ,"out_of_network":[
+    {
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "90471",
+      "description": "Immunization administration intramuscular",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "64-6539125",
+            "business_name": "Integrated Care Solutions"
+          },
+          "billing_class": "professional",
+          "setting": "outpatient",
+          "service_code": "11",
+          "payments": [
+            {
+              "allowed_amount": 4699.15,
+              "billed_charge": 5204.62,
+              "npi": [
+                "1550908616"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "90471",
+      "description": "Immunization administration intramuscular",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "41-1598510",
+            "business_name": "Regional Medical Associates"
+          },
+          "billing_class": "professional",
+          "setting": "inpatient",
+          "service_code": "22",
+          "billing_code_modifiers": [
+            "76"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 3736.62,
+              "billed_charge": 1267.84,
+              "npi": [
+                "1639860042"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "99291",
+      "description": "Critical care evaluation and management first 30-74 minutes",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "78-1814965",
+            "business_name": "Community Health Network"
+          },
+          "billing_class": "professional",
+          "setting": "inpatient",
+          "service_code": "22",
+          "payments": [
+            {
+              "allowed_amount": 1547.9,
+              "billed_charge": 2289.21,
+              "npi": [
+                "1852767040"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "99385",
+      "description": "Initial comprehensive preventive medicine evaluation new patient 18-39 years",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "65-3516574",
+            "business_name": "Academic Medical Center Group"
+          },
+          "billing_class": "professional",
+          "service_code": "11",
+          "payments": [
+            {
+              "allowed_amount": 4964.26,
+              "billed_charge": 6869.01,
+              "npi": [
+                "1740469223"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "99232",
+      "description": "Subsequent hospital care moderate complexity per day",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "77-3367715",
+            "business_name": "Valley Medical Group"
+          },
+          "billing_class": "professional",
+          "setting": "inpatient",
+          "service_code": "21",
+          "payments": [
+            {
+              "allowed_amount": 2296.33,
+              "billed_charge": 5709.32,
+              "npi": [
+                "1387295071"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "99385",
+      "description": "Initial comprehensive preventive medicine evaluation new patient 18-39 years",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "60-4236466",
+            "business_name": "Specialty Health Group"
+          },
+          "billing_class": "professional",
+          "service_code": "11",
+          "payments": [
+            {
+              "allowed_amount": 730.92,
+              "billed_charge": 6435.38,
+              "npi": [
+                "1767416410"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "93000",
+      "description": "Routine electrocardiogram with at least 12 leads with interpretation and report",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "44-1763950",
+            "business_name": "Integrated Care Solutions"
+          },
+          "billing_class": "professional",
+          "service_code": "11",
+          "payments": [
+            {
+              "allowed_amount": 3980.89,
+              "billed_charge": 2324.7,
+              "npi": [
+                "1675441501"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "90471",
+      "description": "Immunization administration intramuscular",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "93-5688238",
+            "business_name": "Valley Medical Group"
+          },
+          "billing_class": "professional",
+          "setting": "inpatient",
+          "service_code": "21",
+          "payments": [
+            {
+              "allowed_amount": 2998.94,
+              "billed_charge": 2713.53,
+              "npi": [
+                "1156262333"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "70551",
+      "description": "Magnetic resonance imaging brain without contrast material",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "17-4539390",
+            "business_name": "Metropolitan Providers"
+          },
+          "billing_class": "professional",
+          "setting": "outpatient",
+          "service_code": "11",
+          "payments": [
+            {
+              "allowed_amount": 1545.74,
+              "billed_charge": 1019.66,
+              "npi": [
+                "1470722257"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "93000",
+      "description": "Routine electrocardiogram with at least 12 leads with interpretation and report",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "88-6310840",
+            "business_name": "Coastal Health Partners"
+          },
+          "billing_class": "professional",
+          "setting": "outpatient",
+          "service_code": "11",
+          "payments": [
+            {
+              "allowed_amount": 2949.32,
+              "billed_charge": 6379.55,
+              "npi": [
+                "1770121946"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]}
