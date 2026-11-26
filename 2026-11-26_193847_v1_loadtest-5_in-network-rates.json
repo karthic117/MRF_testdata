@@ -1,0 +1,232 @@
+{
+  "schema_version": "3.0.0",
+  "reporting_entity": {
+    "name": "AMPS",
+    "type": "third_party_administrator"
+  },
+  "network": {
+    "network_id": "Net-10",
+    "network_name": [
+      "Network A"
+    ]
+  },
+  "reporting_period": {
+    "start": "2027-04-01",
+    "end": "2027-06-30"
+  },
+  "last_updated_on": "2027-04-01",
+  "attestation": {
+    "statements": [
+      "To the best of its knowledge and belief, this plan or issuer has included all applicable information in accordance with the requirements of 45 CFR 147.212, and the information encoded is true, accurate, and complete as of the date in the file."
+    ],
+    "attester": {
+      "name": "Alex Morgan",
+      "title": "Chief Executive Officer",
+      "organization": "AMPS"
+    }
+  },
+  "provider_references": [
+    {
+      "provider_group_id": 1,
+      "provider_groups": [
+        {
+          "tin": {
+            "ein": "65-2051512",
+            "business_name": "Advanced Medical Group"
+          },
+          "npi": [
+            "1441210755"
+          ]
+        }
+      ]
+    },
+    {
+      "provider_group_id": 2,
+      "provider_groups": [
+        {
+          "tin": {
+            "ein": "82-1036148",
+            "business_name": "Regional Medical Associates"
+          },
+          "npi": [
+            "1864357988"
+          ]
+        }
+      ]
+    },
+    {
+      "provider_group_id": 3,
+      "provider_groups": [
+        {
+          "tin": {
+            "ein": "60-3560050",
+            "business_name": "Specialty Health Group"
+          },
+          "npi": [
+            "1819334280"
+          ]
+        }
+      ]
+    },
+    {
+      "provider_group_id": 4,
+      "provider_groups": [
+        {
+          "tin": {
+            "ein": "64-4264024",
+            "business_name": "Provider Group One"
+          },
+          "npi": [
+            "1341225819"
+          ]
+        }
+      ]
+    },
+    {
+      "provider_group_id": 5,
+      "provider_groups": [
+        {
+          "tin": {
+            "ein": "33-6766975",
+            "business_name": "Regional Medical Associates"
+          },
+          "npi": [
+            "1522837100"
+          ]
+        }
+      ]
+    }
+  ]
+  ,"in_network":[
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "Q9957",
+      "description": "Injection perflutren lipid microspheres per ml",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            4
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "fee schedule",
+              "negotiated_rate": 19970.02,
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "expiration_date": "2027-05-02",
+              "service_code": [
+                "21"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "70450",
+      "description": "Computed tomography head or brain without contrast material",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            3
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "fee schedule",
+              "negotiated_rate": 17169.06,
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "expiration_date": "2028-11-05",
+              "service_code": [
+                "32"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "70551",
+      "description": "Magnetic resonance imaging brain without contrast material",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            2
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "percentage",
+              "negotiated_rate": 5808.76,
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "expiration_date": "2028-10-26",
+              "service_code": [
+                "13"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "43239",
+      "description": "Esophagogastroduodenoscopy with biopsy single or multiple",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            5
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "derived",
+              "negotiated_rate": 3303.01,
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "expiration_date": "2028-05-26",
+              "service_code": [
+                "11"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "99203",
+      "description": "Office or outpatient visit new patient, moderate complexity",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            1
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "negotiated",
+              "negotiated_rate": 5779.79,
+              "billing_class": "professional",
+              "setting": "outpatient",
+              "expiration_date": "2028-01-03",
+              "service_code": [
+                "11",
+                "21"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]}

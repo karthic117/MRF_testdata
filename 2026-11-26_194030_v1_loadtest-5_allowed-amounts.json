@@ -1,0 +1,162 @@
+{
+  "schema_version": "3.0.0",
+  "reporting_entity": {
+    "name": "AMPS",
+    "type": "third_party_administrator"
+  },
+  "market_segment": "large_group",
+  "reporting_period": {
+    "start": "2026-07-01",
+    "end": "2026-12-31"
+  },
+  "lookback_period": {
+    "start": "2026-07-01",
+    "end": "2027-03-31"
+  },
+  "last_updated_on": "2027-04-01",
+  "attestation": {
+    "statements": [
+      "To the best of its knowledge and belief, this plan or issuer has included all applicable information in accordance with the requirements of 45 CFR 147.212, and the information encoded is true, accurate, and complete as of the date in the file."
+    ],
+    "attester": {
+      "name": "Alex Morgan",
+      "title": "Chief Executive Officer",
+      "organization": "AMPS"
+    }
+  }
+  ,"out_of_network":[
+    {
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "71046",
+      "description": "Radiologic examination chest 2 views",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "60-3561378",
+            "business_name": "Metropolitan Providers"
+          },
+          "billing_class": "professional",
+          "setting": "outpatient",
+          "service_code": "22",
+          "payments": [
+            {
+              "allowed_amount": 2581.01,
+              "billed_charge": 6718.74,
+              "npi": [
+                "1282949785"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "99232",
+      "description": "Subsequent hospital care moderate complexity per day",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "12-1233084",
+            "business_name": "Provider Group One"
+          },
+          "billing_class": "professional",
+          "service_code": "21",
+          "payments": [
+            {
+              "allowed_amount": 4698.97,
+              "billed_charge": 6673.26,
+              "npi": [
+                "1780414648"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "99232",
+      "description": "Subsequent hospital care moderate complexity per day",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "24-3321612",
+            "business_name": "Advanced Medical Group"
+          },
+          "billing_class": "professional",
+          "setting": "inpatient",
+          "service_code": "21",
+          "payments": [
+            {
+              "allowed_amount": 714.01,
+              "billed_charge": 3119.98,
+              "npi": [
+                "1846230646"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "45378",
+      "description": "Colonoscopy flexible proximal to splenic flexure diagnostic",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "80-5488280",
+            "business_name": "Coastal Health Partners"
+          },
+          "billing_class": "professional",
+          "setting": "outpatient",
+          "service_code": "23",
+          "billing_code_modifiers": [
+            "26"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 402.73,
+              "billed_charge": 3212.29,
+              "npi": [
+                "1011501196"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "billing_code_type": "CPT",
+      "billing_code_type_version": "2023",
+      "billing_code": "71046",
+      "description": "Radiologic examination chest 2 views",
+      "allowed_amounts": [
+        {
+          "tin": {
+            "ein": "53-1538186",
+            "business_name": "Regional Medical Associates"
+          },
+          "billing_class": "professional",
+          "service_code": "11",
+          "billing_code_modifiers": [
+            "25"
+          ],
+          "payments": [
+            {
+              "allowed_amount": 1795.99,
+              "billed_charge": 791.61,
+              "npi": [
+                "1851373727"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]}
