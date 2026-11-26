@@ -1,0 +1,69 @@
+{
+  "schema_version": "3.0.0",
+  "reporting_entity": {
+    "name": "AMPS",
+    "type": "third_party_administrator"
+  },
+  "network": {
+    "network_id": "NET-002",
+    "network_name": [
+      "Network A"
+    ]
+  },
+  "reporting_period": {
+    "start": "2027-04-01",
+    "end": "2027-06-30"
+  },
+  "last_updated_on": "2027-04-01",
+  "attestation": {
+    "statements": [
+      "To the best of its knowledge and belief, this plan or issuer has included all applicable information in accordance with the requirements of 45 CFR 147.212, and the information encoded is true, accurate, and complete as of the date in the file."
+    ],
+    "attester": {
+      "name": "Alex Morgan",
+      "title": "Chief Executive Officer",
+      "organization": "AMPS"
+    }
+  },
+  "provider_references": [
+    {
+      "provider_group_id": 1,
+      "provider_groups": [
+        {
+          "tin": {
+            "ein": "34-1893439",
+            "business_name": "Provider Group One"
+          },
+          "npi": [
+            "1366433195"
+          ]
+        }
+      ]
+    }
+  ],
+  "in_network": [
+    {
+      "negotiation_arrangement": "ffs",
+      "billing_code_type": "HCPCS",
+      "billing_code_type_version": "2023",
+      "billing_code": "Q9957",
+      "description": "Inj perflutren lip micros,ml",
+      "negotiated_rates": [
+        {
+          "provider_references": [
+            1
+          ],
+          "negotiated_prices": [
+            {
+              "negotiated_type": "negotiated",
+              "negotiated_rate": 1075.5,
+              "billing_class": "institutional",
+              "setting": "outpatient",
+              "expiration_date": "2027-12-31"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
